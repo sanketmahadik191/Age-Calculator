@@ -2,6 +2,9 @@
 
 This is a simple web-based age calculator project created using HTML, CSS, and JavaScript.
 
+## Hosted Link - 
+https://sanketmahadik191.github.io/Age-Calculator/
+
 ## Demo
 ![image](https://github.com/sanketmahadik191/Age-Calculator/assets/125791466/9304508f-68dd-4944-914d-b71f76154f72)
 
