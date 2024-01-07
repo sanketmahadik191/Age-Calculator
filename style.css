@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik Maps', system-ui;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background: #fff8ed;
+    color: #EE4E34;
+    font-weight: 400;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator {
+    width: 100%;
+    max-width: 600px;
+}
+
+.calculator h1 {
+    font-size: 70px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.input-box {
+    margin: 45px 0;
+    padding: 20px 30px 30px 30px;
+    border-radius: 10px;
+    background: rgba(238, 78, 52, 0.4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.input-box h2 {
+    margin-bottom: 10px;
+    color: #fff9e9;
+    font-weight: 200;
+}
+
+.input-in {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.input-in input {
+    flex: 1;
+    margin-right: 20px;
+    padding: 14px 20px;
+    border: 0;
+    outline: 0;
+    font-size: 18px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.input-in button {
+    background: #EE4E34;
+    border: 0;
+    outline: 0;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-weight: 200;
+    color: #ffffff;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.input-box input::-webkit-calendar-picker-indicator {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: auto;
+    height: auto;
+    position: absolute;
+    background-position: calc(100% - 10px);
+    background-size: 30px;
+    cursor: pointer;
+}
+
+#result {
+    font-size: 25px;
+    color: #EE4E34;
+    text-align: center;
+}
+
+#result span {
+    color: #44414a;
+    font-size: 35px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+}
+
+.credit {
+    position: absolute;
+    bottom: 10px;
+    font-size: 20px;
+    padding: 1rem;
+}
+
+#developer {
+    color: #000;
+}
